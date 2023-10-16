@@ -1,0 +1,92 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+.container{
+    background-image: url("valentin-muller-bWtd1ZyEy6w-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    position:absolute;
+    top:87px;
+    left:282px;
+
+}
+.inputtext{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color:white;
+    border-radius: 20px;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+button{
+    font-size: 18px;
+    border-radius: 24px;
+    cursor: pointer;
+    background-color: gray;
+}
+
+.body{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top:30%;
+    left:2%;
+
+}
+#temp{
+    font-size: 4rem;
+    font-weight: 900;
+}
+#type{
+    font-size: 2rem;
+    font-weight: 100;
+    padding-left: 35px;
+
+}
+#img{
+    position: absolute;
+    bottom: -300%;
+    right:35%;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+.sec4{
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top:50%
+}
+.sec5{
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 30px;
+    position: absolute;
+    top:51.5%;
+    left:5%;
+    color: white;
+    font-size: 2.5rem;
+    padding-top: 10px;
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#wind{
+    margin: -9px;
+}
+#humanity{
+    margin: 15px;
+}
